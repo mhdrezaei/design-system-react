@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "@ds.e/scss": "^0.1.3",
     "@types/react": "^18.0.28",
     "parcel-bundler": "^1.12.5",
     "react": "^18.2.0",
