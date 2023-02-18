@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "yarn lerna run build"
+    "build": "yarn lerna run build",
+    "dev": "yarn lerna run dev"
   },
   "keywords": [],
   "author": "",
@@ -15,8 +16,8 @@
   "private": true,
   "workspaces": {
     "packages": [
-      "packages/*",
-      "playground/*"
+      "playgrounds/*"
+      
     ]
   },
   "nohoist": [
